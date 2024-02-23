@@ -5,15 +5,3 @@
 body {
   @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 m-0 font-sans;
 }
-
-/* .container {
-  @apply flex;
-} */
-
-/* .main {
-  @apply flex-1 p-8;
-} */
-/* .group {
-  @apply --tw-scroll-snap-strictness-proximity;
-  scroll-snap-type: y mandatory;
-} */
