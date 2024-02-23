@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-500 tracking-wide sm:pb-0">
+    <footer className="max-w-md mt-20 mb-16 text-sm text-slate-500 tracking-wide sm:pb-0">
       Motivated by the portfolio of{" "}
       <a
         className="text-slate-200 font-medium hover:text-teal-400 focus-visible:text-teal-300 "

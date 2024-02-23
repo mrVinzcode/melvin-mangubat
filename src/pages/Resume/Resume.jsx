@@ -1,23 +1,32 @@
 export default function Resume() {
   return (
-    <div className="mt-2 mb-2">
-      <h1 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
-        <a className=" hover:underline text-xl" href="">
-          View Résumé
-        </a>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-          aria-hidden="true"
+    <div className="mt-2 mb-24">
+      <h1 className="items-baseline font-medium leading-tight text-slate-200">
+        <a
+          className="inline-flex group text-xl"
+          href="/img/MELVIN-MANGUBAT.pdf"
+          target="_blank"
+          download
         >
-          <path
-            fillRule="evenodd"
-            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-            clipRule="evenodd"
-          ></path>
-        </svg>
+          <span className="flex items-center border-b border-transparent group-hover:border-teal-300 pb-px">
+            View Résumé
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              strokeWidth="0"
+              viewBox="0 0 16 16"
+              className="group-hover:translate-x-2 transition-all ml-2 "
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              ></path>
+            </svg>
+          </span>
+        </a>
       </h1>
     </div>
   );
