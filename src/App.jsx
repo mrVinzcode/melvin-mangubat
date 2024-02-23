@@ -4,14 +4,13 @@ import Projects from "./pages/Projects/Projects";
 import Experience from "./pages/Experience/Experience";
 import Footer from "./pages/Global/Footer";
 import Resume from "./pages/Resume/Resume";
-// import Header from "./pages/Header/Header";
 
 export default function App() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
         <Sidebar />
-        <main className="main">
+        <main className="main basis-1/2">
           <About />
           <Projects />
           <Experience />

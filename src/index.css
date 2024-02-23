@@ -10,6 +10,10 @@ body {
   @apply flex;
 } */
 
-.main {
+/* .main {
   @apply flex-1 p-8;
-}
+} */
+/* .group {
+  @apply --tw-scroll-snap-strictness-proximity;
+  scroll-snap-type: y mandatory;
+} */
