@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 export default function Sidebar() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -43,7 +41,10 @@ export default function Sidebar() {
             </li>
           </ul>
         </nav>
-        <ul className="ml-1 mt-8 flex items-center" aria-label="Social icons">
+        <ul
+          className="ml-1 lg:mt-40 mt-20 flex items-center"
+          aria-label="Social icons"
+        >
           <li className="mr-5 text-xs shrink-0">
             <a
               className="block hover:text-slate-200"
