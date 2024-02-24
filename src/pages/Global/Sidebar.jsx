@@ -66,10 +66,10 @@ export default function Sidebar() {
           <li className="mr-5 text-xs shrink-0">
             <a
               className="block hover:text-slate-200"
-              href="https://github.com/mrVinzcode"
+              href="https://www.linkedin.com/in/melvinmangubat554/"
               target="_blank"
             >
-              <span className="sr-only">Github</span>
+              <span className="sr-only">LinkedIn</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -84,10 +84,10 @@ export default function Sidebar() {
           <li className="mr-5 text-xs shrink-0">
             <a
               className="block hover:text-slate-200"
-              href="https://github.com/mrVinzcode"
+              href="https://www.linkedin.com/in/melvinmangubat554/"
               target="_blank"
             >
-              <span className="sr-only">Github</span>
+              <span className="sr-only">Twitter</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1200 1227"
@@ -108,7 +108,7 @@ export default function Sidebar() {
               href="https://github.com/mrVinzcode"
               target="_blank"
             >
-              <span className="sr-only">Github</span>
+              <span className="sr-only">Instagram</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1000 1000"
