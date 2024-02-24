@@ -1,4 +1,4 @@
-const Projects = () => {
+export default function Projects() {
   return (
     <section
       id="projects"
@@ -247,6 +247,4 @@ const Projects = () => {
       </div>
     </section>
   );
-};
-
-export default Projects;
+}

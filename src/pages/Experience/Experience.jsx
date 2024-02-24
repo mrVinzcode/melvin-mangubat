@@ -1,4 +1,4 @@
-const Experince = () => {
+export default function Experince() {
   return (
     <section
       id="experience"
@@ -218,6 +218,4 @@ const Experince = () => {
       </div>
     </section>
   );
-};
-
-export default Experince;
+}

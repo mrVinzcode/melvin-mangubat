@@ -16,8 +16,8 @@ export default function Footer() {
       >
         React with Vite{" "}
       </a>
-      and personalized CSS. The outcome is a refined online representation,
-      presently live on Vercel.
+      . The outcome is a refined online representation, presently live on
+      Vercel.
     </footer>
   );
 }
