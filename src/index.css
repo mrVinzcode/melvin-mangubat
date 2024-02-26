@@ -1,23 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&;display=swap);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&;display=swap);
-
 .background {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 html {
-  @apply scroll-smooth;
+  @apply scroll-smooth no-scrollbar;
 }
 
 body {
   @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 m-0 font-sans;
 }
 
-p {
-  text-decoration: none solid rgb(191, 215, 250);
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

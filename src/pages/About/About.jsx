@@ -10,27 +10,30 @@ export default function About() {
         </h2>
       </div>
       <div>
-        <p className="mb-4 text-slate tracking-wide">
+        <p className="mb-4 text-slate tracking-wide leading-7">
           Hi there! I am{" "}
-          <a className="text-slate-200 font-bold tracking-wide" href="/">
+          <a
+            className="text-slate-200 hover:text-teal-300 font-bold tracking-wide"
+            href="/"
+          >
             Melvin Mangubat
           </a>
           , a cheerful freelance web developer from the Philippines.
         </p>
-        <p className="mb-4 text-slate tracking-wide">
+        <p className="mb-4 text-slate tracking-wide leading-7">
           My journey didn&apos;t always involve web development. I spent 12
           happy years improving my personality and skills in the corporate world
           and as a virtual assistant. However, it was the field of web
           development that truly made me happy. Fueled by excitement, I enrolled
           in an online bootcamp, learning all the necessary{" "}
-          <span className="text-slate-200">
+          <span className="text-slate-200 hover:text-teal-300">
             knowledge and skills with pure joy.
           </span>{" "}
           I graduated with a BSIT degree, but I didn&apos;t pursue that path and
           took a different direction. I believe there is an opportunity for
           everyone to find what truly brings happiness, right?
         </p>
-        <p className="mb-4 text-slate tracking-wide">
+        <p className="mb-4 text-slate tracking-wide leading-7">
           Now, as a thrilled web developer, I&apos;m all about the happy vibes.
           I love embracing new technologies with excitement, creating solutions
           that not only work seamlessly but also bring a smile to your face. The
