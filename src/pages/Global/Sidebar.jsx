@@ -9,8 +9,8 @@ export default function Sidebar() {
           Junior Web Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          Building user-centric websites with a focus on accessibility, best
-          practices, SEO, and performance.
+          I craft websites with precision, ensuring accessibility, SEO, and
+          delivering engaging digital experiences.
         </p>
 
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
