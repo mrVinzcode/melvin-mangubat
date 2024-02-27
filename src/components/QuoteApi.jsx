@@ -22,9 +22,11 @@ export default function QuoteApi() {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <div className="my-14 italic text-sm/6 max-w-[24rem] font-semibold text-widest hidden lg:block">
-      <p className="text-leading-7 text-base ">{quote.content}</p>
-      <p className="text-right pt-2 text-slate-100 font-bold">{quote.author}</p>
+    <div className="my-14 italic max-w-[24rem] lg:text-sm font-semibold text-widest">
+      <p className="text-leading-7 text-base ">&#8220;{quote.content}&#8221;</p>
+      <p className="text-right pt-2 text-slate-100 font-bold">
+        &#8211; {quote.author}
+      </p>
     </div>
   );
 }
