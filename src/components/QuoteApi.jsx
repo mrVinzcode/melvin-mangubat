@@ -18,18 +18,29 @@ export default function QuoteApi() {
   };
 
   useEffect(() => {
+    handleQuote();
+
     const intervalId = setInterval(() => {
       handleQuote();
     }, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
+
   return (
     <div className="my-14 italic max-w-[24rem] lg:text-sm font-semibold text-widest">
-      <p className="text-leading-7 text-base ">&#8220;{quote.content}&#8221;</p>
-      <p className="text-right pt-2 text-slate-100 font-bold">
-        &#8211; {quote.author}
-      </p>
+      {quote.content ? (
+        <>
+          <p className="text-leading-7 text-base ">
+            &#8220;{quote.content}&#8221;
+          </p>
+          <p className="text-right pt-2 text-slate-100 font-bold">
+            &#8211; {quote.author}
+          </p>
+        </>
+      ) : (
+        <p>Loading Quotes</p>
+      )}
     </div>
   );
 }
