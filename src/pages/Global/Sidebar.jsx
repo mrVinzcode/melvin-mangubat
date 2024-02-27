@@ -1,3 +1,32 @@
+import { useState, useEffect } from "react";
+import QuoteApi from "../../components/QuoteApi";
+
+function useActiveLink(section) {
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.getElementById(section);
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        setIsActive(rect.top <= 0 && rect.bottom > 0);
+      }
+    };
+
+    // Attach the event listener
+    document.addEventListener("scroll", handleScroll);
+
+    // Initial check on mount
+    handleScroll();
+
+    // Cleanup on unmount
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [section]);
+
+  return isActive;
+}
 export default function Sidebar() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -30,6 +59,8 @@ export default function Sidebar() {
             ))}
           </ul>
         </nav>
+
+        <QuoteApi />
 
         <ul
           className="ml-1 lg:mt-40 mt-20 flex items-center"
