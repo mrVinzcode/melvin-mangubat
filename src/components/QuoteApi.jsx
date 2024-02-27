@@ -4,13 +4,16 @@ export default function QuoteApi() {
   const [quote, setQuote] = useState([]);
 
   const handleQuote = () => {
-    let api = "http://api.quotable.io/random";
+    let api = "https://api.quotable.io/random";
 
     fetch(api)
       .then((res) => res.json())
       .then((results) => {
         setQuote(results);
-        console.log(results);
+        console.log("Fetched quote:", results);
+      })
+      .catch((error) => {
+        console.error("Error fetching quote:", error);
       });
   };
 
