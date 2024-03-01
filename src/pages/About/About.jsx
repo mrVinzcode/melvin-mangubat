@@ -11,35 +11,36 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4 text-slate tracking-wide leading-7">
-          Hi there! I am{" "}
-          <a
-            className="text-slate-200 hover:text-teal-300 font-bold tracking-wide"
-            href="/"
-          >
-            Melvin Mangubat
-          </a>
-          , a cheerful freelance web developer from the Philippines.
+          Hey there! I&apos;m Melvin Mangubat, a web developer from Calamba,
+          Philippines. After spending a solid two years diving into web
+          development through a bootcamp and loads of self-learning, I&apos;m
+          all about building cool stuff! 🚀
+        </p>
+
+        <p className="mb-4 text-slate tracking-wide leading-7">
+          During my bootcamp days, I wasn&apos;t just keeping up, I was a top
+          student, soaking up all the ins and outs of web development. Now,
+          let&apos;s turn those skills into some awesome projects!
         </p>
         <p className="mb-4 text-slate tracking-wide leading-7">
-          My journey didn&apos;t always involve web development. I spent 12
-          happy years improving my personality and skills in the corporate world
-          and as a virtual assistant. However, it was the field of web
-          development that truly made me happy. Fueled by excitement, I enrolled
-          in an online bootcamp, learning all the necessary{" "}
-          <span className="text-slate-200 hover:text-teal-300">
-            knowledge and skills with pure joy.
-          </span>{" "}
-          I graduated with a BSIT degree, but I didn&apos;t pursue that path and
-          took a different direction. I believe there is an opportunity for
-          everyone to find what truly brings happiness, right?
+          I&apos;ve got a good handle on front-end design and have dived into
+          the backend world too. But for me, it&apos;s not just about the code;
+          it&apos;s about creating digital stories. Every project is a chance to
+          make something smooth and memorable.
         </p>
         <p className="mb-4 text-slate tracking-wide leading-7">
-          Now, as a thrilled web developer, I&apos;m all about the happy vibes.
-          I love embracing new technologies with excitement, creating solutions
-          that not only work seamlessly but also bring a smile to your face. The
-          ever-evolving nature of this field keeps me in high spirits, and
-          I&apos;m eagerly anticipating the joyous possibilities ahead. Let the
-          happiness and excitement continue!
+          Let&apos;s not just make apps, let&apos;s make digital spaces that
+          people genuinely enjoy. Whether it&apos;s fixing up how things look or
+          tweaking behind-the-scenes tech, I&apos;m all about making web stuff
+          awesome.
+        </p>
+        <p>
+          If you&apos;re into creating cool things too, email me at{" "}
+          <span className="text-slate-200 font-bold tracking-wide">
+            melvinmangubat27@gmail.com
+          </span>
+          . Let&apos;s turn ideas into reality and make some internet magic
+          together! 🌟
         </p>
       </div>
     </div>
