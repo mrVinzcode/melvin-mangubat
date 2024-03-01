@@ -11,8 +11,11 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4 tracking-wide leading-7">
-          Hey there! I&apos;m Melvin Mangubat, a front-end web developer from
-          Cabuyao City, Philippines. After spending a solid 1.5 years diving
+          Hey there! I&apos;m{" "}
+          <span className="text-slate-200 font-bold leading-relaxed">
+            Melvin Mangubat
+          </span>
+          , a front-end web developer. After spending a solid 1.5 years diving
           into web development through a bootcamp and loads of self-learning,
           I&apos;m all about building cool stuff! 🚀
         </p>
@@ -24,7 +27,7 @@ export default function About() {
         </p>
         <p className="mb-4 tracking-wide leading-7">
           I&apos;ve got a good handle on front-end design and have dived into
-          the backend world too. But for me, it&apos;s not just about the code;
+          the backend world too. But for me, it&apos;s not just about the code,
           it&apos;s about creating digital stories. Every project is a chance to
           make something smooth and memorable.
         </p>

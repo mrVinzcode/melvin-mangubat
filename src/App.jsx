@@ -1,10 +1,11 @@
+import { useState } from "react";
+
 import Sidebar from "./pages/Global/Sidebar";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Experience from "./pages/Experience/Experience";
 import Footer from "./pages/Footer/Footer";
 import Resume from "./components/Resume";
-import { useState } from "react";
 import Loading from "./components/Loading";
 
 export default function App() {
