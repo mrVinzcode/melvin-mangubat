@@ -1,21 +1,24 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&;display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.background {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
-}
-
-html {
-  @apply scroll-smooth no-scrollbar;
+  font-style: normal;
+  font-optical-sizing: auto;
+  @apply no-scrollbar;
 }
 
 body {
-  @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 m-0 font-sans;
+  @apply bg-slate-900 leading-relaxed antialiased selection:bg-teal-300 selection:text-teal-900 text-opacity font-sans;
 }
 
 .no-scrollbar::-webkit-scrollbar {

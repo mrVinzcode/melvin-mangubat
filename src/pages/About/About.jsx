@@ -10,31 +10,31 @@ export default function About() {
         </h2>
       </div>
       <div>
-        <p className="mb-4 text-slate tracking-wide leading-7">
-          Hey there! I&apos;m Melvin Mangubat, a web developer from Calamba,
-          Philippines. After spending a solid two years diving into web
-          development through a bootcamp and loads of self-learning, I&apos;m
-          all about building cool stuff! 🚀
+        <p className="mb-4 tracking-wide leading-7">
+          Hey there! I&apos;m Melvin Mangubat, a front-end web developer from
+          Cabuyao City, Philippines. After spending a solid 1.5 years diving
+          into web development through a bootcamp and loads of self-learning,
+          I&apos;m all about building cool stuff! 🚀
         </p>
 
-        <p className="mb-4 text-slate tracking-wide leading-7">
+        <p className="mb-4 tracking-wide leading-7">
           During my bootcamp days, I wasn&apos;t just keeping up, I was a top
           student, soaking up all the ins and outs of web development. Now,
           let&apos;s turn those skills into some awesome projects!
         </p>
-        <p className="mb-4 text-slate tracking-wide leading-7">
+        <p className="mb-4 tracking-wide leading-7">
           I&apos;ve got a good handle on front-end design and have dived into
           the backend world too. But for me, it&apos;s not just about the code;
           it&apos;s about creating digital stories. Every project is a chance to
           make something smooth and memorable.
         </p>
-        <p className="mb-4 text-slate tracking-wide leading-7">
+        <p className="mb-4 tracking-wide leading-7">
           Let&apos;s not just make apps, let&apos;s make digital spaces that
           people genuinely enjoy. Whether it&apos;s fixing up how things look or
           tweaking behind-the-scenes tech, I&apos;m all about making web stuff
           awesome.
         </p>
-        <p>
+        <p className="mb-4 tracking-wide leading-7">
           If you&apos;re into creating cool things too, email me at{" "}
           <span className="text-slate-200 font-bold tracking-wide">
             melvinmangubat27@gmail.com

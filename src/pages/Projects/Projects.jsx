@@ -34,7 +34,7 @@ export default function Projects() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   Our Korean Food App, developed with Next.js, TypeScript, and
                   styled with Tailwind CSS, aims to be the ultimate destination
                   for authentic Korean cuisine in the Philippines. We connect
@@ -103,7 +103,7 @@ export default function Projects() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   Our Doctor Booking App named BookWell aims to simplify
                   healthcare access. We connect users with medical professionals
                   for easy scheduling and personalized health management,
@@ -172,7 +172,7 @@ export default function Projects() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   This website serves as a platform for practicing React with
                   Tailwind, focusing solely on frontend development. It
                   represents a digital agency&apos;s software designed to assist

@@ -4,8 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
+import { useState } from "react";
 
 export default function Sidebar() {
+  const [active, setActive] = useState("About");
+
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
@@ -28,8 +31,20 @@ export default function Sidebar() {
                   href={`#${section.toLowerCase()}`}
                   className="group flex items-center py-3"
                 >
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                  <span className="text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200">
+                  <span
+                    className={`mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-visible:bg-slate-200 motion-reduce:transition-none
+                  ${
+                    active === section
+                      ? "w-16 bg-slate-200"
+                      : "w-8 bg-slate-600"
+                  }`}
+                  ></span>
+                  <span
+                    className={`text-xs font-bold tracking-widest group-hover:text-slate-200 ${
+                      active === section ? "text-slate-200" : "text-slate-500"
+                    }`}
+                    onClick={() => setActive(section)}
+                  >
                     {section}
                   </span>
                 </a>

@@ -16,7 +16,7 @@ export default function Experince() {
             <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,.0.1)] lg:group-hover:drop-shadow-lg"></div>
               <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                2010 - Present
+                2010 - 2023
               </header>
               <div className="z-10 sm:col-span-6 ">
                 <h3 className="font-medium leading-snug text-slate-200 ">
@@ -31,7 +31,7 @@ export default function Experince() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   Executing orders in the SAP system, we assess total volume and
                   weight. Determining the required trucks based on package
                   dimensions, we coordinate with third-party services for
@@ -98,7 +98,7 @@ export default function Experince() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   For wholesale product research, our emphasis is on identifying
                   existing suppliers offering products at the most competitive
                   prices compared to Amazon sellers. We intend to sell these
@@ -170,7 +170,7 @@ export default function Experince() {
                   </a>
                 </h3>
 
-                <p className="mt-2 text-sm leading-normal">
+                <p className="mt-2 text-sm leading-normal tracking-wide">
                   To quickly find leads, I use manual sourcing, reverse
                   sourcing, and storefront stalking. Seller Amp SAS helps by
                   automatically listing items in Google Sheets. My criteria: at
