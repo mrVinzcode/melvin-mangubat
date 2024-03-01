@@ -39,7 +39,7 @@ export default function QuoteApi() {
           </p>
         </>
       ) : (
-        <p>Loading Quotes</p>
+        <p>Loading</p>
       )}
     </div>
   );
