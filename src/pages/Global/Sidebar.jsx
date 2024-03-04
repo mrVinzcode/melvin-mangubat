@@ -18,17 +18,17 @@ export default function Sidebar() {
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
           Front-End Web Developer
         </h2>
-        <p className="mt-4 max-w-xs leading-normal">
+        <p className="lg:mt-4 max-w-md lg:max-w-xs mt-8 leading-7 tracking-wide">
           I craft websites with precision, ensuring accessibility, SEO, and
           delivering engaging digital experiences.
         </p>
 
-        <nav className="nav hidden lg:block" aria-label="In-page jump links">
+        <nav className="nav hidden lg:block">
           <ul className="mt-16 w-max uppercase">
             {["About", "Projects", "Experience"].map((section) => (
               <li key={section}>
                 <a
-                  href={`#${section.toLowerCase()}`}
+                  href={`#${section}`}
                   className="group flex items-center py-3"
                 >
                   <span
