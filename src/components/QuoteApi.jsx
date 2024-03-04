@@ -28,7 +28,7 @@ export default function QuoteApi() {
   }, []);
 
   return (
-    <div className="my-14 italic max-w-[24rem] hidden lg:block lg:text-sm font-semibold text-widest">
+    <div className="my-14 italic max-w-[24rem] max-h-12 hidden lg:block lg:text-sm font-semibold text-widest">
       {quote.content ? (
         <>
           <p className="text-leading-7 text-base ">

@@ -40,7 +40,7 @@ export default function About() {
         <p className="mb-4 tracking-wide leading-7">
           If you&apos;re into creating cool things too, email me at{" "}
           <span className="text-slate-200 font-bold tracking-wide">
-            melvinmangubat27@gmail.com
+            melvin.mangubat24@gmail.com
           </span>
           . Let&apos;s turn ideas into reality and make some internet magic
           together! 🌟
