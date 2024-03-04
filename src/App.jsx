@@ -20,9 +20,9 @@ export default function App() {
         cursorRef.current.style.background = `radial-gradient(600px circle at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
       }
     };
-
+    window.addEventListener("mousemove", mouseHover);
     return () => {
-      window.addEventListener("mousemove", mouseHover);
+      window.removeEventListener("mousemove", mouseHover);
     };
   }, []);
 
@@ -41,7 +41,7 @@ export default function App() {
       ) : (
         <div className="relative">
           <div
-            className="fixed top-0 left-0 h-full w-full pointer-events-auto z-50 transition duration-200 ease-in-out"
+            className="fixed inset-0 h-full w-full z-30 pointer-events-none transition duration-200 ease-in-out"
             ref={cursorRef}
           ></div>
           <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:py-20 lg:px-6 lg:py-0 lg:flex lg:justify-between lg:gap-4">
