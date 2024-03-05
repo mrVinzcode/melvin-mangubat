@@ -7,6 +7,7 @@ export default function ProjectList() {
       projectName: "Korean Food",
       description:
         "Our Korean Food App, developed with Next.js, TypeScript, anstyled with Tailwind CSS, aims to be the ultimate destinationfor authentic Korean cuisine in the Philippines. We connect users to diverse flavors, ensuring a seamless ordering experience and fostering a vibrant community. Become a part of the go-to platform for a delightful Korean food experience.",
+      link: "https://a-taste-of-seoul-henna.vercel.app/",
       skills: ["Next", "Tailwind", "Typescript", "Vercel", "Google Api"],
       img: "/img/tasteofseoul.png",
       alt: "Taste of Seoul",
@@ -15,6 +16,7 @@ export default function ProjectList() {
       projectName: "Doctor Booking",
       description:
         "Our Doctor Booking App named BookWell aims to simplify healthcare access. We connect users with medical professionals for easy scheduling and personalized health management,fostering a healthier community through accessible healthcare services.",
+      link: "https://booking-app-eight-indol.vercel.app/",
       skills: [
         "React",
         "Tailwind",
@@ -30,6 +32,7 @@ export default function ProjectList() {
       projectName: "Digital Agency",
       description:
         "This website serves as a platform for practicing React with Tailwind, focusing solely on frontend development. It represents a digital agency&apos;s software designed to assist individuals in efficiently managing their tasks, providing a hassle-free experience.",
+      link: "https://digital-agency-sooty.vercel.app/",
       skills: ["React", "Tailwind", "Vercel", "Freepik"],
       img: "/img/digital-agency.png",
       alt: "Digital Agency",
@@ -38,7 +41,7 @@ export default function ProjectList() {
 
   return (
     <section
-      id="projects"
+      id="Projects"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
@@ -55,10 +58,7 @@ export default function ProjectList() {
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
-                    <a
-                      href="https://a-taste-of-seoul-henna.vercel.app/"
-                      target="_blank"
-                    >
+                    <a href={item.link} target="_blank">
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <span>
                         {item.projectName}

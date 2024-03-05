@@ -3,18 +3,16 @@ import { useEffect, useState } from "react";
 export default function QuoteApi() {
   const [quote, setQuote] = useState([]);
 
-  const handleQuote = () => {
-    let api = "https://api.quotable.io/random";
-
-    fetch(api)
-      .then((res) => res.json())
-      .then((results) => {
-        setQuote(results);
-        console.log("Fetched quote:", results);
-      })
-      .catch((error) => {
-        console.error("Error fetching quote:", error);
-      });
+  let api = "https://api.quotable.io/random";
+  const handleQuote = async () => {
+    try {
+      const response = await fetch(api);
+      const data = await response.json();
+      setQuote(data);
+      console.log("Fetch Quote:", data);
+    } catch (error) {
+      console.log("Error Fetch Quote:", error);
+    }
   };
 
   useEffect(() => {

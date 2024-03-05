@@ -9,6 +9,31 @@ import { useState } from "react";
 export default function Sidebar() {
   const [active, setActive] = useState("About");
 
+  const linkIcon = [
+    {
+      icon: "github",
+      link: "https://github.com/mrVinzcode",
+      svg: <FaGithub className="h-8 w-8" />,
+    },
+    {
+      icon: "linkedin",
+      link: "https://www.linkedin.com/in/melvinmangubat554/",
+      svg: <FaLinkedin className="h-7 w-7" />,
+    },
+    {
+      icon: "twitter",
+      link: "https://twitter.com/",
+      svg: <BsTwitterX className="h-7 w-7" />,
+    },
+    {
+      icon: "instagram",
+      link: "https://www.instagram.com/",
+      svg: <FaInstagram className="h-8 w-8" />,
+    },
+  ];
+
+  const mainSections = ["About", "Projects", "Experience"];
+
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
@@ -25,7 +50,7 @@ export default function Sidebar() {
 
         <nav className="nav hidden lg:block">
           <ul className="mt-16 w-max uppercase">
-            {["About", "Projects", "Experience"].map((section) => (
+            {mainSections.map((section) => (
               <li key={section}>
                 <a
                   href={`#${section}`}
@@ -59,28 +84,7 @@ export default function Sidebar() {
           className="ml-1 lg:mt-40 mt-20 flex items-center"
           aria-label="Social icons"
         >
-          {[
-            {
-              icon: "github",
-              link: "https://github.com/mrVinzcode",
-              svg: <FaGithub className="h-8 w-8" />,
-            },
-            {
-              icon: "linkedin",
-              link: "https://www.linkedin.com/in/melvinmangubat554/",
-              svg: <FaLinkedin className="h-7 w-7" />,
-            },
-            {
-              icon: "twitter",
-              link: "https://twitter.com/your_twitter_handle",
-              svg: <BsTwitterX className="h-7 w-7" />,
-            },
-            {
-              icon: "instagram",
-              link: "https://www.instagram.com/your_instagram_handle",
-              svg: <FaInstagram className="h-8 w-8" />,
-            },
-          ].map((social) => (
+          {linkIcon.map((social) => (
             <li key={social.icon} className="mr-5 text-xs shrink-0">
               <a
                 className="block hover:text-slate-200"
