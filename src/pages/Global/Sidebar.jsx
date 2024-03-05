@@ -43,9 +43,9 @@ export default function Sidebar() {
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
           Front-End Web Developer
         </h2>
-        <p className="lg:mt-4 max-w-md lg:max-w-xs mt-8 leading-7 tracking-wide">
-          I craft websites with precision, ensuring accessibility, SEO, and
-          delivering engaging digital experiences.
+        <p className="lg:mt-4 max-w-md lg:max-w-sm mt-8 leading-7 tracking-wide">
+          I approach my work with great attention to detail and ensuring
+          seamless user experiences and optimal performance.
         </p>
 
         <nav className="nav hidden lg:block">
