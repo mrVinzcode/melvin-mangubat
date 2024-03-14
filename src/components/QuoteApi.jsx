@@ -4,7 +4,7 @@ export default function QuoteApi() {
   const [quote, setQuote] = useState([]);
 
   let api = "https://api.quotable.io/random";
-  const handleQuote = async () => {
+  const fetchQuote = async () => {
     try {
       const response = await fetch(api);
       const data = await response.json();
@@ -16,11 +16,10 @@ export default function QuoteApi() {
   };
 
   useEffect(() => {
-    handleQuote();
-
+    fetchQuote();
     const intervalId = setInterval(() => {
-      handleQuote();
-    }, 5000);
+      fetchQuote();
+    }, 10000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -29,7 +28,7 @@ export default function QuoteApi() {
     <div className="my-14 italic max-w-[24rem] max-h-12 hidden lg:block lg:text-sm font-semibold text-widest">
       {quote.content ? (
         <>
-          <p className="text-leading-7 text-base ">
+          <p className="text-leading-7 text-base italic">
             &#8220;{quote.content}&#8221;
           </p>
           <p className="text-right pt-2 text-slate-100 font-bold">

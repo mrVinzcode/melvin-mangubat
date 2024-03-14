@@ -30,7 +30,7 @@ body {
   scrollbar-width: none;
 }
 
-/* quote loading animation */
+/* loading animation */
 .animation {
   position: relative;
   width: 100%;
@@ -73,14 +73,6 @@ body {
   position: absolute;
   top: -50px;
 }
-/* 
-.animation p {
-  position: absolute;
-  color: #fff;
-  font-size: 32px;
-  letter-spacing: 4px;
-  bottom: -50px;
-} */
 
 @keyframes anim1 {
   0% {

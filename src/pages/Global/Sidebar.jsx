@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   const [active, setActive] = useState("About");
@@ -41,7 +42,7 @@ export default function Sidebar() {
           <a href="/">Melvin Mangubat</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Front-End Web Developer
+          Web Developer
         </h2>
         <p className="lg:mt-4 max-w-md lg:max-w-sm mt-8 leading-7 tracking-wide">
           I approach my work with great attention to detail and ensuring

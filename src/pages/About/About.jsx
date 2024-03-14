@@ -15,9 +15,9 @@ export default function About() {
           <span className="text-slate-200 font-bold leading-relaxed">
             Melvin Mangubat
           </span>
-          , a front-end web developer. After spending a solid 1.5 years diving
-          into web development through a bootcamp and loads of self-learning,
-          I&apos;m all about building cool stuff! 🚀
+          , a web developer. After dedicating a year to web development,
+          including a bootcamp and lots of self-study, I&apos;m passionate about
+          creating awesome things! 🚀
         </p>
 
         <p className="mb-4 tracking-wide leading-7">
